@@ -88,7 +88,7 @@ function playSound(name){
 function startOver(){
     level = 0;
     gamePattern.length = 0;
-    userClickedpattern = 0;
+    userClickedpattern.length = 0;
     started = false;
 }
 
